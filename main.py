@@ -5,7 +5,13 @@ class Person:
   weight = 43
   is_male = True
 
+  def __init__(self, surname):
+    self.surname = surname
 
-me = Person()
+
+me = Person("Ignatyhc:")
 
 print(me.age)
+# print(me.surname)
+
+
